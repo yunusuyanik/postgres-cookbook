@@ -1,5 +1,5 @@
-# postgres-cookbook
-
+[<img src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" width="100">](https://www.postgresql.org/)
+ 
 ## Definitions
 
 * **Postmaster**: Manage all of the service behind the scene which are;
@@ -31,7 +31,7 @@
 * **pg_ctl**: check status postgres service
     * /usr/lib/postgresql/14/bin/pg_ctl status -D /var/lib/postgresql/14/main
 
-## PSQL
+## :elephant: PSQL
    ```
    show config_file;
    show port;
