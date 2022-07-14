@@ -39,7 +39,9 @@
    ```
    
 ##### Server Configuration
-    `show config_file;`
-    `select pg_reload_conf();` —> use for change some runtime configs applying
+   ```
+   show config_file;
+   select pg_reload_conf(); —> use for change some runtime configs applying
+   ```
 
 
