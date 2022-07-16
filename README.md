@@ -32,6 +32,10 @@
 * **pg_lsclusters**: list clusters (instances) and some informations with it.
 * **pg_ctl**: check status postgres service
     * /usr/lib/postgresql/14/bin/pg_ctl status -D /var/lib/postgresql/14/main
+       * /usr/lib/postgresql/14/bin/pg_ctl -D /var/lib/postgresql/14/main -ms stop 
+       * -ms(mart): smart mode which means postgres waiting for the every connection is closed.
+       * -mf(ast): (default) fast mode which means every transaction will be rolled back and shut it down the server fastly.
+       * -mi(mmediate): imediate mode which means connections are closed by service and without roll back. When the service is start, transactions will be roll back.
 
 ## :elephant: PSQL
    ```
