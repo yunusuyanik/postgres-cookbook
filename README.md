@@ -35,15 +35,15 @@
 
 ## :elephant: PSQL
    ```
-   show config_file;
-   show port;
-   show data_directory;
+   show config_file;        -- show pg_hba file location.
+   show port;               -- show port information.
+   show data_directory;     -- show data directory location.
+   show hba_file;           -- show pg_hba file location.
+   show config_file;        -- show config file location.
+   select pg_reload_conf(); -- apply config to runtime configuration.
    ```
    
 ##### Server Configuration
-   ```
-   show config_file;
-   select pg_reload_conf(); —> use for change some runtime configs applying
-   ```
+  
 
 
